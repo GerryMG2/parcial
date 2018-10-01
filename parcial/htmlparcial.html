@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="parcial.css">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <title>Parcial</title>
 </head>
 <body>
+    <main>
     <nav class="navbar"> 
         <ul class="links">
             <li><a href="#">HOME</a></li>
             <li><a href="">ABOUT</a></li>
             <li class="logo">
-                <img src="logo.png" alt="logo" class="logomargin">
+                <img src="logo.png" alt="logo" class="logomargin" style="-webkit-filter: grayscale(0);
+                filter: grayscale(0);">
             </li>
             <li><a href="">CONTACT</a></li>
             <li><a href="">SOCIAL</a></li>
@@ -23,7 +26,7 @@
         <header class="header" id="titulo">
             <h1 class="titulo">Maxisun's</h1>
             <p>The best studio full time!</p>
-            <a href="#" class="flecha"><img src="#" alt="flecha"></a>
+            <a href="#" class="flecha"><img src="flechaabajo" width="20px" height="20px" alt="flecha"></a>
 
         </header>
         <div class="container">
@@ -72,11 +75,11 @@
         <div class="contacto">
             <form action="" class="forms">
                 <label for="frmNameA">Nombre</label>
-                <input type="text" name="frmNameA" placeholder="John">
+                <input type="text" name="frmNameA" placeholder="John" class="inputc"> 
                 <label for="Email">Email</label>
-                <input type="text" name ="Email" placeholder="John@domain.com">
+                <input type="text" class="inputc" name ="Email" placeholder="John@domain.com">
                 <label for="comentario">Comentario</label>
-                <input type="text" class="comentario" name="comentario" placeholder="How can we help to you?">
+                <input type="text"  class="comentario" name="comentario" placeholder="How can we help to you?">
                 <input type="submit" class="botones" placeholder="Contact">
 
             </form>
@@ -87,12 +90,14 @@
         </div>
         <footer>
             <div class="social">
+                <h3>Social</h3>
                 <p>Facebook</p>
                 <p>Twitter</p>
                 <p>Instagram</p>
             </div>
 
             <div class="pages">
+                <h3>More of us</h3>
                 <p>page1</p>
                 <p>page2</p>
                 <p>page3</p>
@@ -101,7 +106,7 @@
             <div class="copyrigth">copyrigth</div>
 
         </footer>
-   
+    </main>
     
 </body>
 </html>

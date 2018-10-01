@@ -22,12 +22,12 @@ body{
 }
 
 .navbar .links{
-    margin: 0;
+    margin: 1px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     justify-items: center;
-    ;
+    
 }
 
 .links li a{
@@ -89,6 +89,13 @@ header > h1{
     align-items: center;
     background-color: whitesmoke;
     width: inherit;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.items > h2 {
+    align-self: left;
+    justify-self: left;
 }
 
 .items > p,h2,input{
@@ -101,7 +108,7 @@ header > h1{
     border: none;
     width: 80%;
     color: aliceblue;
-
+    margin: 10px;
 }
 
 .itemimg{
@@ -119,29 +126,45 @@ header > h1{
 }
 
 .forms{
+    border-radius: 20px;
     padding: 15px;
     display: flex;
     flex-direction: column;
     align-content: left;
     align-items: left;
+    color: white;
+}
+
+.forms > .inputc,.comentario {
+    border-radius: inherit;
+}
+.comentario{
+    height: 150px;
 }
 
 .contactus{
     margin: 20px;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.158)
+    background-color: rgba(0, 0, 0, 0.158);
+    color: white;
 }
 
 footer{
+    background-color: #000;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr;
     justify-content: center;
     align-items: center;
     align-content: center;
+    color: white;
+    padding: 10px;
 }
-
 .copyrigth{
+    grid-column-end: -1;
 }
 
 
+.titulo{
+    font-family: 'Monoton', cursive;
+}
 
