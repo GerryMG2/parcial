@@ -1,0 +1,147 @@
+::root{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding:0; 
+}
+
+*,::befote, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+
+}
+
+.navbar{
+    width: 100%;
+    height: 56px;
+    background-color: #000
+}
+
+.navbar .links{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    ;
+}
+
+.links li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.links .logo img{
+    height: 56%;
+    width: 56px;
+    
+}
+
+.logomargin{
+    margin-bottom: -56px;;
+    z-index: 1;
+    
+}
+header{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-image: url('concierto.jpg');
+    background-size: cover;
+    z-index: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+header > h1{
+    font-size: 3em;
+}
+
+
+
+
+.container{
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    padding: 10px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.items{
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    width: inherit;
+}
+
+.items > p,h2,input{
+    padding: 10px;
+}
+
+.botones{
+    background-color: rgb(233, 165, 18);
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    color: aliceblue;
+
+}
+
+.itemimg{
+    width: 100%;
+    height: 200px;
+}
+
+.contacto{
+    background-image: url('contacus.jpg');
+    
+    height: 450px;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.forms{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    align-items: left;
+}
+
+.contactus{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.158)
+}
+
+footer{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.copyrigth{
+}
+
+
+
